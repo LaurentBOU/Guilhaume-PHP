@@ -28,6 +28,30 @@ session_start();
     ?>
 <h1 class="text-center text-uppercase">Bienvenue sur le blog de Jean</h1>
 <img src="image/Olympe.jpeg" alt="olympus" class="d-block m-auto w-50">
+<div class="text-center dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+        Liens déroulants
+        </a>
+
+<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="image/Zeus.png">Zeus</a></li>
+    <li><a class="dropdown-item" href="image/Hera.png">Héra</a></li>
+    <li><a class="dropdown-item" href="image/Poseidon.png">Poséïdon</a></li>
+    <li><a class="dropdown-item" href="image/Hephaïstos.png">Héphaïstos</a></li>
+    <li><a class="dropdown-item" href="image/Hades.png">Hadès</a></li>
+    <li><a class="dropdown-item" href="image/Demeter.png">Déméter</a></li>
+    <li><a class="dropdown-item" href="image/Hermes.png">Hermès</a></li>
+    <li><a class="dropdown-item" href="image/Apollon.png">Apollon</a></li>
+    <li><a class="dropdown-item" href="image/Artemis.png">Artémis</a></li>
+    <li><a class="dropdown-item" href="image/Dionysos.png">Dionysos</a></li>
+    <li><a class="dropdown-item" href="image/Athena.png">Athéna</a></li>
+    <li><a class="dropdown-item" href="image/Aphrodite.png">Aphrodite</a></li>
+</ul>
+</div>
+
+
+
+
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 mx-auto">
