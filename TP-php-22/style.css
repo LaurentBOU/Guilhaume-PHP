@@ -1,0 +1,23 @@
+@font-face {
+    font-family: DisneyHeroic;
+    src: url("font/DisneyHeroic.ttf");
+}
+h1 {
+    padding-top: 3rem;
+}
+h1, h2, h5, p {
+
+    font-family: DisneyHeroic;
+    color: DarkRed;
+
+}
+
+#imgDefault {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+#retourHaut{
+    background-color: pink;
+}
